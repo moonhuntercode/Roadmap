@@ -18,8 +18,15 @@ h1{
     
 }
 .navbar{
+    background-color: rgba(0, 0, 0, 0.664);
+    height: 8%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-content: center ;
+    text-align: center;
 
 }
+/* .child_nav{} */
 nav a {
     text-decoration: none;
     color: white;
